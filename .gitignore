@@ -1,0 +1,26 @@
+# EIDE
+.eide/log/
+.eide.usr.ctx.json
+
+# Build Output
+build/
+bin/
+obj/
+out/
+
+# Keil Output
+*.hex
+*.map
+*.lst
+*.obj
+*.o
+*.lnp
+*.m51
+
+# EIDE Template
+*.ept
+*.eide-template
+
+# OS
+.DS_Store
+Thumbs.db
