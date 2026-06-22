@@ -1,6 +1,6 @@
 #include <STC89C5xRC.H>
 
-unsigned char code display[10] = {
+unsigned char code SEG_CODE[10] = {
     0xE7,
     0x84,
     0xD3,
@@ -15,7 +15,5 @@ unsigned char code display[10] = {
 
 void Int_DigitalTube_ShowNumber(unsigned char num)
 {
-    P1 = display[num];
+    P1 = SEG_CODE[num];
 }
-
-//
