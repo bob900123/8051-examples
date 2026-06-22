@@ -1,4 +1,4 @@
-# 8051 Project - Seven Segment Display
+# 8051 Project - LED Blink
 
 這是一個基於 STC89C52RC（8051）微控制器的示例專案，展示如何控制 LED 閃爍。
 
