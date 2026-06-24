@@ -7,7 +7,7 @@
 | 編號 | 專案 | 說明 |
 |------|------|------|
 | 00 | LED Blink | LED 循環閃爍 |
-| 01 |  |  |
+| 01 | LED Running Light | LED 依序點亮形成流水燈效果 |
 | 02 | Seven Segment Display | 控制七段顯示器顯示數字 |
 | 03 |  |  |
 | 04 | Button Toggle LED | 按一下亮，再按一下滅 |
