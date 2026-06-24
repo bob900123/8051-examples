@@ -3,17 +3,23 @@
 
 #include "Com_Utils.h"
 
+#define LED_DB P1
+#define LED_COUNT 5
+
 void main(void)
 {
-    unsigned char i = 0;
+    unsigned char i = 1;
 
     while (1)
     {
-        P1 = 0x01;
-        for (i = 0; i < 5; i++)
+        LED_DB = i;
+
+        Com_Utils_Delay1ms(100);
+        i <<= 1;
+
+        if (i >= (1 << LED_COUNT))
         {
-            Com_Utils_Delay1ms(100);
-            P1 <<= 1;
+            i = 1;
         }
     }
 }
