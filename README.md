@@ -11,3 +11,4 @@
 | 02 | Seven Segment Display | 控制七段顯示器顯示數字 |
 | 03 |  |  |
 | 04 | Button Toggle LED | 按一下亮，再按一下滅 |
+| 05 | Buzzer Melody Player | 使用無源蜂鳴器演奏《小星星》 |
