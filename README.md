@@ -13,3 +13,4 @@
 | 04 | Button Toggle LED | 按一下 LED 亮，再按一下 LED 滅 |
 | 05 | Buzzer Melody Player | 使用無源蜂鳴器演奏《小星星》 |
 | 06 | Button Toggle LED 2 | 使用外部中斷控制 LED 的亮滅 |
+| 07 | LED Blink 2 | 使用計時器中斷控制LED 循環閃爍 |
